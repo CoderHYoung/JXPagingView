@@ -123,7 +123,7 @@ open class JXPagingView: UIView {
         }
         #if compiler(>=5.5)
         if #available(iOS 15.0, *) {
-            mainTableView.sectionHeaderTopPadding = 0
+//            mainTableView.sectionHeaderTopPadding = 0
         }
         #endif
         addSubview(mainTableView)
